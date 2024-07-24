@@ -1,0 +1,42 @@
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 150px; /* Ajusta el tamaño del logo */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  transition: transform 0.3s ease; /* Transición suave para el efecto hover */
+}
+
+.App-header {
+  background: #282c34; /* Color de fondo para el header */
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-image: url('wea.jpg'); /* Imagen de fondo opcional */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.App-footer {
+  background: #282c34; /* Color de fondo para el footer */
+  color: white;
+  padding: 1em; /* Espaciado interno para el footer */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
